@@ -10,6 +10,7 @@ public class WEG_05_GetAriaRole {
 		driver.manage().window().maximize();
 		driver.get("https://demowebshop.tricentis.com/");
 		
+		
 	}
 
 }
