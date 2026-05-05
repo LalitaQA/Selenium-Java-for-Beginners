@@ -11,6 +11,5 @@ public class S_01_ThreadSleep {
 
 		Thread.sleep(3000);
 		driver.get("https://demowebshop.tricentis.com/");
-
 	}
 }
