@@ -46,5 +46,25 @@ public class WEG_03_GetCssValue {
 		WebElement newsletter=driver.findElement(By.xpath("(//div[@class='title'])[4]"));
 		String newsletterText=newsletter.getCssValue("font-weight");
 		System.out.println("Newsletter text align: "+newsletterText);
+		
+		//Use getCssValue("text-decoration")
+		WebElement newsletter=driver.findElement(By.xpath("(//div[@class='title'])[4]"));
+		String newsletterText=newsletter.getCssValue("font-weight");
+		System.out.println("Newsletter text align: "+newsletterText);
+		
+		//Use getCssValue("margin")
+		//Use getCssValue("padding")
+		//Use getCssValue("border")
+		//Use getCssValue("width")
+		//Use getCssValue("height")
+		//Use getCssValue("display")
+		//Use getCssValue("visibility")
+		//Use getCssValue("opacity")
+		//Use getCssValue("position")
+		//Use getCssValue("top")
+		//Use getCssValue("left")
+		//Use getCssValue("z-index")
+		
+		
 	}
 }
