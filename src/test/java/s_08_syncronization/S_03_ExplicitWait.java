@@ -1,5 +1,7 @@
 package s_08_syncronization;
 
+import java.time.Duration;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -17,10 +19,10 @@ public class S_03_ExplicitWait {
 		driver.findElement(By.className("dropbtn")).click();
 
 		// explicit wait
-		WebDriverWait wait = new WebDriverWait(driver, 30);
-		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[text()='Facebook']")));
+		// use elementToBeClickable()
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[text()='Facebook']")));
 
 		driver.findElement(By.xpath("//a[text()='Facebook']")).click();
 	}
-
 }
