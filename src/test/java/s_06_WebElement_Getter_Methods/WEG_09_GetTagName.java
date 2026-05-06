@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class WEG_06_GetTagName {
+public class WEG_09_GetTagName {
 
 	public static void main(String[] args) {
 		WebDriver driver = new ChromeDriver();
