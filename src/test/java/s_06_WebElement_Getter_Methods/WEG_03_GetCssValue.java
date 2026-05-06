@@ -20,12 +20,12 @@ public class WEG_03_GetCssValue {
 		//Use getCssValue("background-color")
 		WebElement topmenu=driver.findElement(By.className("top-menu"));
 		String TopMenu=topmenu.getCssValue("background-color");
-		System.out.println("TopMenu back ground color :"+TopMenu);
+		System.out.println("TopMenu background color :"+TopMenu);
 		
 		//Use getCssValue("border-color")
 		WebElement recenlyViewProduct=driver.findElement(By.className("listbox"));
 		String recentlyView=recenlyViewProduct.getCssValue("border-color");
-		System.out.println("Recently View product list border color: "+recentlyView);
+		System.out.println("Recently View product list border-color: "+recentlyView);
 		
 		//Use getCssValue("font-size")
 		WebElement wishlist=driver.findElement(By.className("cart-label"));
@@ -42,5 +42,9 @@ public class WEG_03_GetCssValue {
 		String computerMenu=computer.getCssValue("font-weight");
 		System.out.println("Computers in menu font weight: "+computerMenu);
 		
+		//Use getCssValue("text-align")
+		WebElement newsletter=driver.findElement(By.xpath("(//div[@class='title'])[4]"));
+		String newsletterText=newsletter.getCssValue("font-weight");
+		System.out.println("Newsletter text align: "+newsletterText);
 	}
 }
