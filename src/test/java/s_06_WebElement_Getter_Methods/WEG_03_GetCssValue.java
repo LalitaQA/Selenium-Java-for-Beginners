@@ -38,9 +38,9 @@ public class WEG_03_GetCssValue {
 		System.out.println("Register font family: "+registerFontFamily);
 		
 		//Use getCssValue("font-weight")
-		WebElement register=driver.findElement(By.xpath("(//a[contains(@href,'computers')])"));
-		String registerFontFamily=register.getCssValue("font-size");
-		System.out.println("Register font family: "+registerFontFamily);
+		WebElement computer=driver.findElement(By.xpath("(//a[contains(@href,'computers')])[1]"));
+		String computerMenu=computer.getCssValue("font-weight");
+		System.out.println("Computers in menu font weight: "+computerMenu);
 		
 	}
 }
