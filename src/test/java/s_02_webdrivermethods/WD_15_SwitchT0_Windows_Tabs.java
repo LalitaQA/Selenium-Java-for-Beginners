@@ -1,5 +1,14 @@
 package s_02_webdrivermethods;
 
+//1.Launch browser
+//2.Maximize browser
+//3.Navigate to demo web shop
+//4.Get window id and print 
+//5.Click on Facebook link in footer
+//6.Get all window ID's
+//7.Traverse all window ID's using enhance for loop and check if any id is equal to parent id or not
+//8.If not equal to parent than control move to parent window
+
 import java.util.Set;
 
 import org.openqa.selenium.By;

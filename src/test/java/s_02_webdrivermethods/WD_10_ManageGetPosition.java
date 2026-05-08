@@ -2,9 +2,9 @@ package s_02_webdrivermethods;
 
 //1.Launch browser
 //2.Maximize browser
-//2.Navigate to demo web shop
-//3.Set size of browser 
-//4.Print size of browser
+//3.Navigate to demo web shop
+//4.Get position of browser 
+//5.Print position of browser
 
 import org.openqa.selenium.Point;
 import org.openqa.selenium.WebDriver;

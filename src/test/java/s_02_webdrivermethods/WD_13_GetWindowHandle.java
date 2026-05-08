@@ -1,5 +1,11 @@
 package s_02_webdrivermethods;
 
+//1.Launch browser
+//2.Maximize browser
+//3.Navigate to demo web shop
+//4.get window ID
+//5.Print window id
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 

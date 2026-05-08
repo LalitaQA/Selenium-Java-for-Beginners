@@ -1,5 +1,12 @@
 package s_02_webdrivermethods;
 
+//1.Launch browser
+//2.Maximize browser
+//3.Navigate to demo web shop
+//4.Click on Facebook link in footer
+//5.Get both window ID's
+//6.Print all window ID's using enhance for loop
+
 import java.util.Set;
 
 import org.openqa.selenium.By;

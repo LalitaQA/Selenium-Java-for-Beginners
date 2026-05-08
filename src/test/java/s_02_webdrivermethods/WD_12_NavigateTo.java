@@ -1,5 +1,13 @@
 package s_02_webdrivermethods;
 
+//1.Launch browser
+//2.Maximize browser
+//3.Navigate to demo web shop
+//4.Or Navigate to demo web shop using URL("")
+//5.Use navigate back
+//6.Use navigate forward
+//7.Use navigate refresh
+
 import java.net.MalformedURLException;
 import java.net.URL;
 
