@@ -1,5 +1,14 @@
 package s_03_assignment;
 
+//1.Launch browser
+//2.Maximize browser
+//3.Use implicit wait
+//4.Navigate hyrtutorials website
+//5.Click on Add Textbox1 button
+//6.Click on Add Textbox2 button
+//7.Enter value in Textbox1
+//8.Enter value in Textbox2
+
 import java.time.Duration;
 
 import org.openqa.selenium.By;
