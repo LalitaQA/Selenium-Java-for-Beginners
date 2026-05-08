@@ -1,5 +1,14 @@
 package s_04_locators;
 
+//1.Launch browser
+//2.Maximize browser
+//3.Navigate to shoppersstack website
+//4.Use Thread.sleep
+//5.Find element "Email" text field using id locator
+//6.Enter value using sendkeys
+//7.Find element "password" text field using id locator
+//8.Enter value using sendkeys
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
