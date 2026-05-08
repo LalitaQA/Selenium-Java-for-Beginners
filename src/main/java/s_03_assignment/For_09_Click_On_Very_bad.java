@@ -15,9 +15,9 @@ public class For_09_Click_On_Very_bad {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://demowebshop.tricentis.com/");
-		
+
 		driver.findElement(By.xpath("//label[text()='Very bad']/preceding-sibling::input")).click();
-		//driver.close();
+		// driver.close();
 	}
 
 }

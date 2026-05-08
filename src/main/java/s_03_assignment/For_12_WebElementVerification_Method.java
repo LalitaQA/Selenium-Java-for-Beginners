@@ -1,5 +1,12 @@
 package s_03_assignment;
 
+//1.Launch browser
+//2.Maximize browser
+//3.Navigate demo web shop
+//4.Check tricentisLink is diplay or not
+//5.Check tricentisLink is selected or not
+//6.Check tricentisLink is enable or not
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

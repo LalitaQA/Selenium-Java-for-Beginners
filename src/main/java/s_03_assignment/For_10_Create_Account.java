@@ -15,10 +15,10 @@ public class For_10_Create_Account {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://x.com/");
-		
+
 		driver.findElement(By.xpath("//a[@data-testid='signupButton']")).click();
-		//driver.close();
-		
+		// driver.close();
+
 	}
 
 }

@@ -16,6 +16,6 @@ public class For_11_Click_On_Facebook_Link {
 		driver.manage().window().maximize();
 		driver.get("https://demowebshop.tricentis.com/");
 		driver.findElement(By.xpath("//li[contains(@class,'facebook')]/child::a")).click();
-		//driver.close();
+		// driver.close();
 	}
 }
