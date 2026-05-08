@@ -1,5 +1,10 @@
 package s_04_locators;
 
+//1.Launch browser
+//2.Maximize browser
+//3.Navigate to demo web shop website
+//4.Perform different functions using different xpath's
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;

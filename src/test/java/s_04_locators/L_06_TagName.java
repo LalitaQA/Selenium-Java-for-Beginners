@@ -1,5 +1,11 @@
 package s_04_locators;
 
+//1.Launch browser
+//2.Maximize browser
+//3.Navigate to demo web shop website
+//4.Find all links using tagname locator
+//5.Print all text of link using enhance for loop
+
 import java.util.List;
 
 import org.openqa.selenium.By;
