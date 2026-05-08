@@ -1,5 +1,10 @@
 package s_02_webdrivermethods;
 
+//1.Launch browser
+//2.Navigate to demo web shop
+//3.Set size of browser 
+//4.Print size of browser
+
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;

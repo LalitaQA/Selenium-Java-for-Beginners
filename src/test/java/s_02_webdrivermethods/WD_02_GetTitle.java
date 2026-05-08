@@ -1,5 +1,10 @@
 package s_02_webdrivermethods;
 
+//1.Launch browser
+//2.Navigate to demo web shop
+//3.Get title of page
+//4.Print title
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
