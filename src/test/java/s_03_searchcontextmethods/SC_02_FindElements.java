@@ -3,7 +3,7 @@ package s_03_searchcontextmethods;
 //1.Launch browser
 //2.Maximize browser
 //3.Navigate to demo web shop
-//4.Get all the link text
+//4.Get all the link text using findelements method
 //5.Print using enhance for loop
 
 import java.util.List;

@@ -4,7 +4,7 @@ package s_03_searchcontextmethods;
 //2.Maximize browser
 //3.Navigate to shoppersstack
 //4.Use Thread.sleep
-//5.Search for email text field and enter value
+//5.Search for email text field using findelement method and enter value using sendkeys method
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
