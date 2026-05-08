@@ -1,5 +1,14 @@
 package s_08_syncronization;
 
+//1.Launch browser
+//2.Maximize browser
+//3.Navigate to hyrtutorials website
+//4.Use implicit wait
+//4.Find element "Add Textbox1" button using id locator and click
+//5.Use Fluent wait
+//6.Find element "Textbox1" field using lamda function
+//7.Enter value using sendkeys
+
 import java.time.Duration;
 
 import org.openqa.selenium.By;

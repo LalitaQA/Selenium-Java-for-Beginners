@@ -1,5 +1,11 @@
 package s_07_webelement_verification_methods;
 
+//1.Launch browser
+//2.Maximize browser
+//3.Navigate to deno web shop website
+//4.Find element "poll-block-1" using xpath locators
+//5.Print it is selected or not
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

@@ -1,5 +1,13 @@
 package s_08_syncronization;
 
+//1.Launch browser
+//2.Maximize browser
+//3.Navigate to omayo website
+//4.Find element "Dropdown" button using classname locator and click
+//5.Use explicit wait
+//6.Find element "Facebook" link using xpath locator 
+//7.Click
+
 import java.time.Duration;
 
 import org.openqa.selenium.By;

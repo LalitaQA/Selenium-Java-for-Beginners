@@ -3,8 +3,8 @@ package s_06_webelement_getter_methods;
 //1.Launch browser
 //2.Maximize browser
 //3.Navigate to demo web shop website
-//4.Find element "Virtual gift card" using xpath locator
-//5.Get text "Virtual gift card"
+//4.Find element using locators
+//5.And perform different "CssValue" functions
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

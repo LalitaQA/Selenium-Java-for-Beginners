@@ -1,5 +1,11 @@
 package s_06_webelement_getter_methods;
 
+//1.Launch browser
+//2.Maximize browser
+//3.Navigate to demo web shop website
+//4.Find element "AddToCart" button using xpath locators
+//5.Print AraialRole of it
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

@@ -1,5 +1,13 @@
 package s_08_syncronization;
 
+//1.Launch browser
+//2.Maximize browser
+//3.Use implicit wait
+//4.Navigate to hyrtutorials website
+//5.Find element "Add Textbox1" using id locator and click
+//6.Find element "Textbox1" using cssselector 
+//7.Enter value using sendkeys
+
 import java.time.Duration;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
