@@ -1,5 +1,11 @@
 package s_05_webelement_actions_methods;
 
+//1.Launch browser
+//2.Maximize browser
+//3.Navigate to demo web shop website
+//4.Find element Search text box using id locator
+//5.Enter value using sendkeys
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
