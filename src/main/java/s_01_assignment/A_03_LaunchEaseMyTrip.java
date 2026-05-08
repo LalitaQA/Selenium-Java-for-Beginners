@@ -1,5 +1,11 @@
 package s_01_assignment;
 
+//1.Launch browser
+//2.Navigate to easemytrip website
+//3.Fetch the title of website
+//4.Fetch the current url of website
+//5.close browser
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 

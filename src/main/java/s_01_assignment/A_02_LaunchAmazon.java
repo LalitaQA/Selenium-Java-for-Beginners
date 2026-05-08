@@ -1,5 +1,10 @@
 package s_01_assignment;
 
+//1.Launch browser
+//2.Navigate to amazon website
+//3.Fetch the current url of website
+//4.Print current url
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
