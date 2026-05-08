@@ -16,9 +16,9 @@ public class T_15_Click_Register {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.navigate().to("https://demowebshop.tricentis.com");
-		
+
 		driver.findElement(By.linkText("Register")).click();
-		boolean registerButtonDisplay=driver.findElement(By.id("register-button")).isDisplayed();
+		boolean registerButtonDisplay = driver.findElement(By.id("register-button")).isDisplayed();
 		System.out.println(registerButtonDisplay);
 	}
 }

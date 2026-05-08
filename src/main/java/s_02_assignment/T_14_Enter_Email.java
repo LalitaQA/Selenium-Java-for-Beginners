@@ -6,7 +6,6 @@ package s_02_assignment;
 //4.enter email, 
 //5.then use getAttribute() to print the entered email.
 
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

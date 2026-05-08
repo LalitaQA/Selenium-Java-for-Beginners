@@ -13,8 +13,8 @@ public class T_13_Print_Page_Source_Length {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.navigate().to("https://demowebshop.tricentis.com");
-		
-		String pagesourcelength=driver.getPageSource();
+
+		String pagesourcelength = driver.getPageSource();
 		System.out.println(pagesourcelength.length());
 	}
 }

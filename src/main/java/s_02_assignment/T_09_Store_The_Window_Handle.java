@@ -14,7 +14,7 @@ public class T_09_Store_The_Window_Handle {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.navigate().to("https://demowebshop.tricentis.com");
-		String parentWindow=driver.getWindowHandle();
+		String parentWindow = driver.getWindowHandle();
 		System.out.println(parentWindow);
 	}
 }

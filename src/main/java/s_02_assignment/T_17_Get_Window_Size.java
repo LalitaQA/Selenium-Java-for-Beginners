@@ -14,11 +14,11 @@ public class T_17_Get_Window_Size {
 	public static void main(String[] args) {
 		WebDriver driver = new ChromeDriver();
 		driver.navigate().to("https://demowebshop.tricentis.com");
-		
-		Dimension currentwindowSize=driver.manage().window().getSize();
+
+		Dimension currentwindowSize = driver.manage().window().getSize();
 		System.out.println(currentwindowSize);
-		
-		Dimension newSize= new Dimension(500,500);
-		driver.manage().window().setSize(newSize);	
+
+		Dimension newSize = new Dimension(500, 500);
+		driver.manage().window().setSize(newSize);
 	}
 }

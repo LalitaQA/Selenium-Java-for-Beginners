@@ -17,11 +17,11 @@ public class T_18_Enter_Password {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.navigate().to("https://demowebshop.tricentis.com");
-		
+
 		driver.findElement(By.linkText("Register")).click();
-		WebElement password=driver.findElement(By.id("Password"));
+		WebElement password = driver.findElement(By.id("Password"));
 		password.sendKeys("joefrill");
-		String printpassword=password.getAttribute("value");
+		String printpassword = password.getAttribute("value");
 		System.out.println(printpassword);
 	}
 }
