@@ -1,5 +1,11 @@
 package s_03_searchcontextmethods;
 
+//1.Launch browser
+//2.Maximize browser
+//3.Navigate to shoppersstack
+//4.Use Thread.sleep
+//5.Search for email text field and enter value
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
