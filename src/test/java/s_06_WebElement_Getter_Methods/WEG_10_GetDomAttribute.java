@@ -3,8 +3,9 @@ package s_06_webelement_getter_methods;
 //1.Launch browser
 //2.Maximize browser
 //3.Navigate to demo web shop website
-//4.Find element "View all" using linktext locators
-//5.Print location of it
+//4.Find element "Search" field using id locator
+//5.Print DomAttribute and DomProperty before enter any value
+//6.Print DomAttribute and DomProperty after enter any value
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
