@@ -22,7 +22,7 @@ public class D_03_GetFirstSelectedOption {
 		WebElement monthDropDown = driver.findElement(By.cssSelector("[name='Month']"));
 		Select select = new Select(monthDropDown);
 		for (int i = 1; i < 13; i++) {
-			if (i % 2 == 0) {
+			if (i % 2 != 0) {
 				select.selectByIndex(i);
 				Thread.sleep(300);
 			}
