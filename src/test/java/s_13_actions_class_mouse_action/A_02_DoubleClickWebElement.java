@@ -3,10 +3,10 @@ package s_13_actions_class_mouse_action;
 //1.Open browser
 //2.Maximize browser
 //3.Use implicit wait
-//4.Navigate to demo web shop
-//5.Locate register link and store in variable
+//4.Navigate to vinothqaacademy website
+//5.Locate double click button and store in variable
 //6.Create actions class object
-//7.Perform click method 
+//7.Perform doubleclick method 
 
 import java.time.Duration;
 
@@ -16,17 +16,17 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 
-public class A_01_ClickWebElement {
+public class A_02_DoubleClickWebElement {
 
 	public static void main(String[] args) {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		driver.navigate().to("https://demowebshop.tricentis.com");
+		driver.navigate().to("https://vinothqaacademy.com/mouse-event/");
 
-		WebElement registerLink = driver.findElement(By.linkText("Register"));
+		WebElement button = driver.findElement(By.id("doubleBtn"));
 
 		Actions act = new Actions(driver);
-		act.click(registerLink).perform();
+		act.doubleClick(button).perform();
 	}
 }
