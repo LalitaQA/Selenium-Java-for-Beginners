@@ -1,8 +1,6 @@
 package s_13_actions_class_mouse_action;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 
@@ -15,7 +13,7 @@ public class A_05_MoveByOffSet {
 
 		driver.get("https://demowebshop.tricentis.com/");
 		Actions act = new Actions(driver);
-		act.moveByOffset(0, 0)
+		act.moveByOffset(460, 201).perform();
 	}
 
 }

@@ -17,7 +17,7 @@ public class A_04_MoveToElement {
 		Thread.sleep(3000);
 		WebElement profileIcon = driver.findElement(By.xpath("//p[text()='Profile']"));
 		Actions act = new Actions(driver);
-		act.moveToElement(profileIcon);
+		act.moveToElement(profileIcon).perform();
 
 	}
 
