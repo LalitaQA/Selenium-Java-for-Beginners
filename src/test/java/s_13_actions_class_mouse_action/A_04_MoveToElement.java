@@ -11,7 +11,7 @@ public class A_04_MoveToElement {
 	public static void main(String[] args) throws InterruptedException {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		//driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+		// driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 
 		driver.get("https://www.woodenstreet.com/");
 		Thread.sleep(3000);
@@ -20,5 +20,4 @@ public class A_04_MoveToElement {
 		act.moveToElement(profileIcon).perform();
 
 	}
-
 }
