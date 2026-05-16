@@ -8,7 +8,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class A_01_NonInspectable {
+public class AS_01_NonInspectable {
 
 	public static void main(String[] args) {
 		WebDriver driver = new ChromeDriver();
@@ -17,11 +17,11 @@ public class A_01_NonInspectable {
 
 		driver.get("https://www.flipkart.com/");
 		driver.findElement(By.name("q")).sendKeys("iphone");
-		List<WebElement> autolist = driver
-				.findElements(By.xpath("//ul[contains(@class,'VCplLH lTpUwR bRjjIF _1psv1ze5l _1psv1ze9l')]/li"));
+		WebElement popup = driver.findElement(By.className("b3wTlE"));
+		popup.click();
+		List<WebElement> autolist = driver.findElements(By.xpath("//ul[contains(@class,'VCplLH lTpUwR bRjjIF')]/li"));
 		for (WebElement Autosuggesstion : autolist) {
 			System.out.println(Autosuggesstion.getText());
 		}
 	}
-
 }
