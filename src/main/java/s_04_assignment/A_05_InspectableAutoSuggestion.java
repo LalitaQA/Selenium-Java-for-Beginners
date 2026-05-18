@@ -18,13 +18,21 @@ public class A_05_InspectableAutoSuggestion {
 		driver.get("https://www.amazon.in/");
 		driver.findElement(By.id("twotabsearchtextbox")).sendKeys("dress");
 		List<WebElement> autoSuggestions = driver.findElements(By.xpath("//div[@role='row']"));
-		for (WebElement suggestion : autoSuggestions) {
-			String text = suggestion.getText();
-			System.out.println(text);
-			if (text.toLowerCase().contains("dressing table organiser")) {
-				System.out.println("Matching suggestion found: " + text);
-				suggestion.click();
-				break;
+		for (int i = 0; i < autoSuggestions.size(); i++) {
+
+            autoSuggestions = driver.findElements(suggestions);
+
+            String text = autoSuggestions.get(i).getText();
+
+            System.out.println(text);
+
+            if (text.toLowerCase().contains("dressing table organiser")) {
+
+                System.out.println("Matching suggestion found: " + text);
+
+                autoSuggestions.get(i).click();
+
+                break;
 			}
 		}
 	}

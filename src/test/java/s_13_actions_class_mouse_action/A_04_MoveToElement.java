@@ -1,5 +1,11 @@
 package s_13_actions_class_mouse_action;
 
+//1.Launch browser
+//2.Maximize browser
+//3.Use implicit wait
+//4.Navigate to flipkart website
+//5.
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -11,7 +17,7 @@ public class A_04_MoveToElement {
 	public static void main(String[] args) throws InterruptedException {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		// driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+		//driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
 		driver.get("https://www.woodenstreet.com/");
 		Thread.sleep(3000);
