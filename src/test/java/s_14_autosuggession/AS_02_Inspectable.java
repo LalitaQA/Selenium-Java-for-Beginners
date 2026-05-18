@@ -1,5 +1,14 @@
 package s_14_autosuggession;
 
+//1.Launch browser
+//2.Maximize browser
+//3.Use implicit wait
+//4.Navigate to flipkart website
+//5.Locate search textfield
+//6.Enter value using sendkeys
+//7.Close popup
+//8.Print all autosuggestion text list
+
 import java.time.Duration;
 import java.util.List;
 
