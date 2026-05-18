@@ -1,4 +1,4 @@
-package s_14_autosuggession;
+package s_14_autosuggesstion;
 
 //1.Launch browser
 //2.Maximize browser
