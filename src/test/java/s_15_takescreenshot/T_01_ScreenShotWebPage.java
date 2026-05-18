@@ -1,9 +1,15 @@
 package s_15_takescreenshot;
 
+//1.Launch browser
+//2.Maximize browser
+//3.Use implicit wait
+//4.Navigate to flipkart website
+//5.Typecasting for takescreenshot
+//6.Take screen shot and store in folder
+
 import java.io.File;
 import java.io.IOException;
 import java.time.Duration;
-
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
