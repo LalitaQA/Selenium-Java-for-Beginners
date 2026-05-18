@@ -1,5 +1,15 @@
 package s_13_actions_class_mouse_action;
 
+//1.Launch browser
+//2.Maximize browser
+//3.Use implicit wait
+//4.Navigate to saucedemo website
+//5.Locate username textfield
+//6.Enter value using sendkeys
+//7.Copy username value
+//8.Paste in password field
+//9.Click login
+
 import java.time.Duration;
 
 import org.openqa.selenium.By;

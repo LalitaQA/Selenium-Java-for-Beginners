@@ -1,5 +1,12 @@
 package s_13_actions_class_mouse_action;
 
+//1.Launch browser
+//2.Maximize browser
+//3.Use implicit wait
+//4.Navigate to demowebshop website
+//5.Locate searchtextfield element
+//6.Enter value in search textfield using sendkeys(WE, char seq)
+
 import java.time.Duration;
 
 import org.openqa.selenium.By;

@@ -1,5 +1,11 @@
 package s_13_actions_class_mouse_action;
 
+//1.Launch browser
+//2.Maximize browser
+//3.Use implicit wait
+//4.Navigate to doodles.google website
+//5.Locate element using  scrolToElement (WE)
+
 import java.time.Duration;
 
 import org.openqa.selenium.By;
