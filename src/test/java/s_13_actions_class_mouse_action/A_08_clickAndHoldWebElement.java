@@ -19,7 +19,7 @@ import org.openqa.selenium.interactions.Actions;
 
 public class A_08_clickAndHoldWebElement {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
@@ -27,10 +27,14 @@ public class A_08_clickAndHoldWebElement {
 		driver.get("https://yonobusiness.sbi.bank.in/yonobusinesslogin");
 		WebElement popup = driver.findElement(By.xpath("//span[contains(@class,'ng-tns-c2785778308')]"));
 		popup.click();
+		Thread.sleep(3000);
 		WebElement pwdTextField = driver.findElement(By.id("password"));
 		pwdTextField.sendKeys("nicky");
-		WebElement eyeicon = driver.findElement(By.className("ng-star-inserted"));
+		WebElement eyeicon = driver.findElement(By.xpath("//div[@class='addIcon']/button/img"));
 		Actions act = new Actions(driver);
 		act.clickAndHold(eyeicon).perform();
+		Thread.sleep(3000);
+		
+		act.release().perform();
 	}
 }
