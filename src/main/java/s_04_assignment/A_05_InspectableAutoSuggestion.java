@@ -7,7 +7,7 @@ package s_04_assignment;
 //5.Locate search textfield
 //6.Enter value using sendkeys
 //7.Get all autosuggestion text list
-//8.Print only which have "dress"
+//8.Print till "dressing table organiser" and click it
 
 import java.time.Duration;
 import java.util.List;
@@ -27,21 +27,12 @@ public class A_05_InspectableAutoSuggestion {
 		driver.get("https://www.amazon.in/");
 		driver.findElement(By.id("twotabsearchtextbox")).sendKeys("dress");
 		List<WebElement> autoSuggestions = driver.findElements(By.xpath("//div[@role='row']"));
-		for (int i = 0; i < autoSuggestions.size(); i++) {
-
-            autoSuggestions = driver.findElements(suggestions);
-
-            String text = autoSuggestions.get(i).getText();
-
-            System.out.println(text);
-
-            if (text.toLowerCase().contains("dressing table organiser")) {
-
-                System.out.println("Matching suggestion found: " + text);
-
-                autoSuggestions.get(i).click();
-
-                break;
+		for (WebElement alltext : autoSuggestions) {
+			String text = "dressing table organiser";
+			System.out.println(alltext.getText());
+			if (alltext.getText().equals(text)) {
+				alltext.click();
+				break;
 			}
 		}
 	}
