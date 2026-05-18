@@ -1,5 +1,13 @@
 package s_04_assignment;
 
+//1.Launch browser
+//2.Maximize browser
+//3.Use implicit wait
+//4.Navigate to demowebshop website
+//5.Get all links and count
+//6.Print link text
+//7.If "Log in" text is their then click and break 
+
 import java.time.Duration;
 import java.util.List;
 import org.openqa.selenium.By;

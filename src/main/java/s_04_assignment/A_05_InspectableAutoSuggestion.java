@@ -1,5 +1,14 @@
 package s_04_assignment;
 
+//1.Launch browser
+//2.Maximize browser
+//3.Use implicit wait
+//4.Navigate to amazon website
+//5.Locate search textfield
+//6.Enter value using sendkeys
+//7.Get all autosuggestion text list
+//8.Print only which have "dress"
+
 import java.time.Duration;
 import java.util.List;
 
