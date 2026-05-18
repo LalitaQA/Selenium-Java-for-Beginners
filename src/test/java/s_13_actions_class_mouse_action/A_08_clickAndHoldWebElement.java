@@ -8,7 +8,7 @@ package s_13_actions_class_mouse_action;
 //6.Locate password element
 //7.Enter value in password textfield
 //8.Locate eyeicon in pwdTextField
-//9.Perform clickAndHold on  eye icon in pwdTextField
+//9.Perform clickAndHold on eye icon in pwdTextField
 
 import java.time.Duration;
 import org.openqa.selenium.By;
