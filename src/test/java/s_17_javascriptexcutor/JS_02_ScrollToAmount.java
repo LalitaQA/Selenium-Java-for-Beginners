@@ -3,7 +3,7 @@ package s_17_javascriptexcutor;
 //1.Launch browser
 //2.Maximize browser
 //3.Use implicit wait
-//4.Navigate to amazon
+//4.Navigate to doodles.google
 //5.Scroll the webpage using JavascriptExecutor scrollTo()
 
 import java.time.Duration;
@@ -24,5 +24,4 @@ public class JS_02_ScrollToAmount {
 		Thread.sleep(3000);
 		js.executeScript("window.scrollTo(0,500)");
 	}
-
 }
