@@ -3,7 +3,8 @@ package s_16_svgtag;
 //1.Launch browser
 //2.Maximize browser
 //3.Use implicit wait
-
+//4.Navigate to instagram
+//5.Locate facebook icon and click
 
 import java.time.Duration;
 import org.openqa.selenium.By;
