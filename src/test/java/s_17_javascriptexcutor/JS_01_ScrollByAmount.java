@@ -20,8 +20,8 @@ public class JS_01_ScrollByAmount {
 
 		driver.get("https://www.amazon.in/");
 		JavascriptExecutor js = (JavascriptExecutor) driver;
-		js.executeScript("window.scrollBy(0,200)");
+		js.executeScript("window.scrollBy(0,600)");
 		Thread.sleep(3000);
-		js.executeScript("window.scrollBy(0,400)");
+		js.executeScript("window.scrollBy(0,200)");
 	}
 }

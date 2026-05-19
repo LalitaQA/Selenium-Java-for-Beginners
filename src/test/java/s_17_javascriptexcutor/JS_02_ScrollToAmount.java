@@ -22,7 +22,7 @@ public class JS_02_ScrollToAmount {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("window.scrollTo(0,2000)");
 		Thread.sleep(3000);
-		js.executeScript("window.scrollTo(0,4000)");
+		js.executeScript("window.scrollTo(0,500)");
 	}
 
 }
