@@ -1,4 +1,4 @@
-package s_17_javascriptexcutor;
+package s_17_javascriptexecutor;
 
 import java.time.Duration;
 
@@ -21,5 +21,4 @@ public class JS_04_DisableElement {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("arguments[0].click()", button);
 	}
-
 }
