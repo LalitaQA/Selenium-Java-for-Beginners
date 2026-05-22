@@ -13,14 +13,15 @@ public class P_03_Prompt {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
-		driver.get("https://demo.guru99.com/test/delete_customer.php");
+		driver.get("https://demoqa.com/alerts");
 
-		driver.findElement(By.name("cusid")).sendKeys("1234");
-		driver.findElement(By.name("submit")).click();
+		driver.findElement(By.id("promtButton")).click();
 		Alert a = driver.switchTo().alert();
 		Thread.sleep(2000);
-		a.dismiss();
-		driver.quit();
+		a.sendKeys("Lalita");
+		Thread.sleep(3000);
+		a.accept();
+		// driver.quit();
 	}
 
 }
