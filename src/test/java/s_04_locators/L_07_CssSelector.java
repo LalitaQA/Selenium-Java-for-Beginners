@@ -17,6 +17,6 @@ public class L_07_CssSelector {
 		driver.manage().window().maximize();
 		driver.get("https://demowebshop.tricentis.com/");
 
-		driver.findElement(By.cssSelector("[class=\"button-1 search-box-button\"]")).click();
+		driver.findElement(By.cssSelector("[class='button-1 search-box-button']")).click();
 	}
 }
