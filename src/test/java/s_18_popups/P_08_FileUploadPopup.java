@@ -18,7 +18,7 @@ public class P_08_FileUploadPopup {
 		driver.findElement(By.xpath("//p[text()='  I have work experience (excluding internships)']")).click();
 		Actions act=new Actions (driver);
 		act.scrollByAmount(0,500).perform();
-		driver.findElement(By.id("resumeUpload")).sendKeys("C:\\Users\\ishu\\OneDrive\\Desktop\\Lalita\\Selenium_");
+		driver.findElement(By.id("resumeUpload")).sendKeys("./Downloads\\Lalita_Kashyap_Resume.pdf");
 		
 	}
 
