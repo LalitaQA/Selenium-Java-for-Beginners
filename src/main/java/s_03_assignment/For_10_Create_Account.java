@@ -1,5 +1,7 @@
 package s_03_assignment;
 
+import java.time.Duration;
+
 //1.Open the browser 
 //2.Navigate to https://x.com/
 //3.Click on the Create account (Using x path only {Use any one})
@@ -14,6 +16,7 @@ public class For_10_Create_Account {
 	public static void main(String[] args) {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		driver.get("https://x.com/");
 
 		driver.findElement(By.xpath("//a[@data-testid='signupButton']")).click();
