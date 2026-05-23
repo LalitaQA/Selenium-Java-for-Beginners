@@ -16,10 +16,10 @@ public class For_10_Create_Account {
 	public static void main(String[] args) {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
-		driver.get("https://x.com/");
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		driver.get("https://www.amazon.in/");
 
-		driver.findElement(By.xpath("//a[@data-testid='signupButton']")).click();
+		driver.findElement(By.id("nav-link-accountList-nav-line-1")).click();
 		// driver.close();
 
 	}
