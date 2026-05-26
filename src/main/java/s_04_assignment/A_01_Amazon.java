@@ -25,10 +25,10 @@ public class A_01_Amazon {
 
 		driver.get("https://www.amazon.in/");
 		WebElement searchText = driver.findElement(By.id("twotabsearchtextbox"));
-		searchText.sendKeys("iphone");
+		searchText.sendKeys("phone");
 
 		driver.findElement(By.xpath("//input[@type='submit']")).click();
-		driver.findElement(By.xpath("(//span[contains(text(),'iPhone 16 Plus 128 GB:')])[1]")).click();
+		driver.findElement(By.xpath("(//span[contains(text(),'REDMI A7 Pro 5G (Black, 4GB RAM,128GB Storage)')])[1]")).click();
 
 		String parentId = driver.getWindowHandle();
 		Set<String> allIds = driver.getWindowHandles();
