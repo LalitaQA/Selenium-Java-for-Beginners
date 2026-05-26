@@ -18,7 +18,7 @@ public class JS_05_HiddenElement {
 		driver.get("https://www.facebook.com/");
 		driver.findElement(By.xpath("//span[text()='Create new account']")).click();
 		//Thread.sleep(3000);
-		WebElement gendercustom = driver.findElement(By.id("_r_q_"));
+		WebElement gendercustom = driver.findElement(By.xpath("//*[@id='_r_q_']"));
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("arguments[0].value='not to prefer'", gendercustom);
 	}
